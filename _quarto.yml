@@ -7,12 +7,21 @@ website:
   page-navigation: true
   favicon: "images/favicon/favicon.ico"
   site-url: "https://mrne222-sp25-content.github.io/website/"
+  repo-url: "https://github.com/MRNE222-sp25-content/website"
   sidebar:
     style: "docked"
     search: true
     logo: "images/enst222_hex.png"
     alignment: "left"
     pinned: true
+    tools:
+      - icon: github
+        href: "https://github.com/MRNE222-sp25-content"
+        text: "GitHub organization"
+      - icon: code-square
+        href: "https://posit.cloud/spaces/598435/join?access_code=dt0_o-ZKghnJDu2gvF5S3GTKc5GLRSf8QWGAfELr"
+        text: "Posit Cloud"
+      
     contents:
       - href: index.qmd
         text: Welcome

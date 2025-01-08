@@ -4,12 +4,13 @@ execute:
   freeze: false
 ---
 
-Subject to change depending on how quickly we progress through course content.
+Schedule will be updated regularly throughout the semester.
 
 ```{r}
 #| echo: false
 #| message: false
 #| warning: false
+#| html-table-processing: none
 
 library(readxl)
 library(gt)
@@ -22,7 +23,7 @@ read_excel("schedule.xlsx") |>
   cols_width(
     WEEK ~ px(45),
     DATE ~ px(100),
-    PREP ~ px(250),
+    PREP ~ px(150),
     SLIDES ~ px(250),
     ACTIVITIES ~ px(150),
     DUE ~ px(150)
