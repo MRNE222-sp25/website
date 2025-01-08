@@ -1,0 +1,38 @@
+---
+title: "Schedule"
+execute:
+  freeze: false
+---
+
+Subject to change depending on how quickly we progress through course content.
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(readxl)
+library(gt)
+
+read_excel("schedule.xlsx") |>
+  gt() |>
+  fmt_markdown(
+    columns = c(PREP, SLIDES, ACTIVITIES, DUE)
+    ) |>
+  cols_width(
+    WEEK ~ px(45),
+    DATE ~ px(100),
+    PREP ~ px(250),
+    SLIDES ~ px(250),
+    ACTIVITIES ~ px(150),
+    DUE ~ px(150)
+  ) |>
+  cols_align(
+    align = "center", columns = c(WEEK, DATE)
+  ) |>
+  tab_options(table.font.size = 13) |>
+  opt_row_striping() |>
+  sub_missing(columns = everything(),
+              missing_text = "") 
+  
+```

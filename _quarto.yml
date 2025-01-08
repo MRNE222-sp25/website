@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "MRNE/ENST 222"
+  page-navigation: true
+  favicon: "images/favicon/favicon-16x16.png"
+  site-url: "https://mrne222-sp25-content.github.io/website/"
+  sidebar:
+    style: "docked"
+    search: true
+    logo: "images/enst222_hex.png"
+    alignment: "left"
+    pinned: true
+    contents:
+      - href: index.qmd
+        text: Welcome
+      - 01-syllabus.qmd
+      - 02-schedule.qmd
+      - 03-project.qmd
+      - 04-reflections.qmd
+      - 05-help.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
