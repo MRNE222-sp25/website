@@ -5,7 +5,7 @@ project:
 website:
   title: "MRNE/ENST 222"
   page-navigation: true
-  favicon: "images/favicon/favicon-16x16.png"
+  favicon: images/favicon/favicon-16x16.png
   site-url: "https://mrne222-sp25-content.github.io/website/"
   sidebar:
     style: "docked"
