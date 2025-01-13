@@ -51,7 +51,12 @@ Rather than submitting work "in exchange" for a letter or number grade, you will
 
 Brief learning reflections will be an important component of most assignments. Periodically throughout the semester, you will also submit more substantial learning reflections in which you give yourself a grade based on your learning, as reflected in the work you submit. This should help you think intentionally about what you're learning, what you're struggling with, and what you need to do to maximize your learning in the course. Hopefully, this will spark your inner motivation to do your best work. As the instructor, I have the final say in your grade. But I rarely find that changing a student's self-assessed grade is necessary - I trust your judgment.
 
-*One caveat is that your project must meet all of the specifications and you need to make substantial code contributions to your group's work in order to earn at least a C in the course.*
+:::{.callout-important} 
+
+Your project must meet all of the specifications and you need to make substantial code contributions to your group's work in order to earn at least a C in the course.
+
+:::
+
 
 ## Assessment
 
@@ -71,9 +76,13 @@ Labs afford us time to practice the concepts covered in class and work collabora
 
 ### Project
 
-Finally, the course also includes an open-ended group project to give you the opportunity for you to demonstrate that you can ask a meaningful research question and apply the tools you have been learning to answer it using real environmental data. You'll identify a topic with which you're familiar from previous coursework to ensure that you have the disciplinary grounding needed to interpret your analysis. 
+Finally, the course also includes an open-ended group project to give you the opportunity for you to demonstrate that you can ask a meaningful research question and apply the tools you have been learning to answer it using real environmental data. You'll identify a topic with which you're familiar from previous coursework to ensure that you have the disciplinary grounding needed to interpret your analysis. Your project must meet all of the specifications provided and you need to make substantial code contributions to your group's work in order to earn at least a C in the course.
 
-*Your project must meet all of the specifications and each student needs to make substantial code contributions to your group's work in order to earn at least a C in the course.*
+:::{.callout-important} 
+
+Your project must meet all of the specifications and you need to make substantial code contributions to your group's work in order to earn at least a C in the course.
+
+:::
 
 ### Learning reflections
 
@@ -89,7 +98,11 @@ It is very important that you regularly attend class and lab. Everything we do b
 
 I encourage you to stick to assignment deadlines - they exist to keep you on track so you don't fall behind with coursework. For all assignments due on Fridays, you have an automatic 2-day extension and can submit them by the end of the day on Sundays (no need to ask). I am also flexible if you really need an additional day or two to complete an assignment. In this case, just ask - it's usually not a problem. 
 
-However, *you need to complete all of the labs assigned before the start of the group project in order to qualify to participate in the group project.* Because the labs are designed to help you learn and practice key coding and analysis concepts, they play an important role in preparing you for the group data projects. It wouldn't be fair to your group members if you are not prepared to contribute meaningfully to the project. If you do not complete all of the labs leading up the the group project, you'll need to complete the project on your own, which means you won't be able to demonstrate one of the central course learning outcomes: collaborative coding. This is something you will need to consider in your learning reflections.
+:::{.callout-important}
+You need to complete all of the labs assigned before the start of the group project in order to qualify to participate in the group project.
+:::
+
+However, you need to complete all of the labs assigned before the start of the group project in order to qualify to participate in the group project. Because the labs are designed to help you learn and practice key coding and analysis concepts, they play an important role in preparing you for the group data projects. It wouldn't be fair to your group members if you are not prepared to contribute meaningfully to the project. If you do not complete all of the labs leading up the the group project, you'll need to complete the project on your own, which means you won't be able to demonstrate one of the central course learning outcomes: collaborative coding. This is something you will need to consider in your learning reflections.
 
 ### Use of AI
 
