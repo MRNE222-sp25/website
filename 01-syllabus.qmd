@@ -4,11 +4,11 @@ title: "Syllabus"
 
 **Course:** ENST/MRNE 222 Environmental Data Science Spring 2025\
 **Class time and location:** Tuesdays and Thursdays 9:55-11:10 Goodpaster 197\
-**Lab time and location:** Wednesdays 1:10 - 4:20 River Center Classroom\
+**Lab time and location:** Wednesdays 8:00-11:10 River Center Classroom\
 **Instructor:** Dr. Cassie Gurbisz (you're welcome to call me Cassie)\
 **Email:** cbgurbisz\@smcm.edu\
 **Office hours:** Tuesdays 11:30-1:30 Kent Hall 308\
-**Website:** https://mrne222-sp25-content.github.io/website/
+**Website:** https://mrne222-sp25.github.io/website/
 
 ## Course description
 
@@ -23,7 +23,7 @@ Today's environmental challenges are increasingly complex and involve vast amoun
 
 **Hardware:** You'll need to bring a laptop to class and lab every day. Make sure to also bring a charger. If you don't have a laptop, please talk with me so we can get you a loaner.
 
-**Software:** For computing, we'll be using Posit Cloud (formerly RStudio Cloud), which lets you access RStudio and all of the packages we'll need right from your browser. Although R and RStudio are freely available to download onto your computer, working from a central cloud version ensures that we spend our class time learning to code rather than trouble shooting software issues. All of your work should be done in our class Posit Cloud RStudio workspace. You will receive an email invite to join the workspace.
+**Software:** For computing, we'll be using Posit Cloud (formerly RStudio Cloud), which lets you access RStudio and all of the packages we'll need right from your browser. Although R and RStudio are freely available to download onto your computer, working from a central cloud version ensures that we spend our class time learning to code rather than trouble shooting software issues. All of your work should be done in our class Posit Cloud RStudio workspace. You will receive an invite to join the workspace during class.
 
 I do recommend that you [download R and RStudio](https://rstudio-education.github.io/hopr/starting.html) onto your computer at some point during the semester since you won't have access to our cloud workspace after the course ends. You might also want to get your computer connected to GitHub so you can ask for help if you run into any problems. [happywithgitr.com](https://happygitwithr.com/) has very good instructions - be sure to follow them carefully and don't skip any steps.
 
@@ -45,11 +45,13 @@ Specific outcomes include being able to:
 
 ## Grading
 
-This is an "ungraded" course. I want you to focus on learning R and developing your quantitative reasoning skills without the stress of losing points over minor mistakes. Mistakes are inevitable in this type of course. In fact, making mistakes and fixing them is the best way to learn! Furthermore, [research has shown](https://www.alfiekohn.org/article/case-grades/) that grading doesn't improve learning and can sometimes even harm learning.
+This is an "ungraded" course. I want you to focus on learning R and developing your quantitative reasoning skills without the stress of losing points over minor mistakes. Mistakes are inevitable in this type of course. In fact, making mistakes and fixing them is the best way to learn! Furthermore, [research has shown](https://www.alfiekohn.org/article/case-grades/) that grading doesn't always improve learning and can sometimes even harm learning.
 
-Rather than submitting work to me "in exchange" for a letter or number grade, you will self-evaluate most of your assignments by comparing them to the provided solutions documents. In addition, your peers and I will provide qualitative feedback on your projects. This should help you think intentionally about what you're learning, what you're struggling with, and what you need to do to maximize your learning in the course. Hopefully, this will spark your inner motivation to do your best work.
+Rather than submitting work "in exchange" for a letter or number grade, you will self-evaluate most of your assignments by comparing them to the provided solutions documents. In addition, your peers and I will provide qualitative feedback on your projects. 
 
-Brief learning reflections will be an important component of most assignments. Periodically throughout the semester, you will also submit more substantial learning reflections in which you give yourself a grade based on your learning, as reflected in the work you submit. We will meet individually at mid-semester and the end of the semester to discuss your overall progress. As the instructor, I have the final say in your grade. But I rarely find that changing a student's self-assessed grade is necessary - I trust your judgment.
+Brief learning reflections will be an important component of most assignments. Periodically throughout the semester, you will also submit more substantial learning reflections in which you give yourself a grade based on your learning, as reflected in the work you submit. This should help you think intentionally about what you're learning, what you're struggling with, and what you need to do to maximize your learning in the course. Hopefully, this will spark your inner motivation to do your best work. As the instructor, I have the final say in your grade. But I rarely find that changing a student's self-assessed grade is necessary - I trust your judgment.
+
+*One caveat is that your project must meet all of the specifications and you need to make substantial code contributions to your group's work in order to earn at least a C in the course.*
 
 ## Assessment
 
@@ -61,39 +63,39 @@ To incentevize you to do the readings and to help me keep track of who is doing 
 
 ### Application exercises
 
-Frequently we will work on brief application exercises during class to practice new tools and concepts. The first few will be posted as assignments in our Posit Cloud workspace. When you open an assignment, Posit Cloud will make a copy for you. Your changes will be automatically saved and I'll be able to see your work. If you miss class, I will not check that you have completed the application exercises - they are mostly for demonstration purposes. But it would be a good idea to go through any missed application exercises to see how the tools covered that day work.
+Frequently we will work on brief application exercises during class to practice new tools and concepts. The first few will be posted as assignments in our Posit Cloud workspace. When you open an assignment, Posit Cloud will make a copy for you. Your changes will be automatically saved and I'll be able to see your work. After our first lab, you'll clone the remaining Application Exercises from GitHub, work on the in Posit Cloud, and push your changes to GitHub to submit the assignment. Application exercises should be submitted by the end of the week (Friday) in which they were assigned. 
 
 ### Labs
 
-[Labs](https://enst222.github.io/website/labs.html) afford us time to practice the concepts covered in class and work collaboratively on group projects. Some exercises will be relatively brief and can be completed during the designated lab time. Others will be more involved and may need to be finished for homework. Either way, lab assignments don't need to be submitted until the following Wednesday before the next lab. That way, you will have time to collaborate further, clean things up, revise, etc. if needed.
+Labs afford us time to practice the concepts covered in class and work collaboratively on group projects. Some exercises will be relatively brief and can be completed during the designated lab time. Others will be more involved and may need to be finished for homework. Either way, lab assignments should be submitted by the end of the week (Friday) in which they were assigned. At the beginning of each lab, I will typically post a solutions document for the previous lab assignment so you can self-evaluate your work and ask questions. 
 
-However, please be sure to complete lab assignments by the due date. At the beginning of each lab, I will typically post a solutions document for the previous lab assignment so you can self-evaluate your work and ask questions. If you do need to submit an assignment after the deadline, I ask that you not look at the solutions until you have completed the work. The labs are designed to help you learn, so you won't be doing yourself any favors if you just copy the solutions!
+### Project
 
-### Data challenges
+Finally, the course also includes an open-ended group project to give you the opportunity for you to demonstrate that you can ask a meaningful research question and apply the tools you have been learning to answer it using real environmental data. You'll identify a topic with which you're familiar from previous coursework to ensure that you have the disciplinary grounding needed to interpret your analysis. 
 
-Whereas labs typically involve guided exercises to help you learn how to use a particular set of tools, we will have two take-home, open-book [data challenges](https://enst222.github.io/website/challenges.html) to assess your ability to use these tools without as much guidance. Think of the labs as riding a bike with training wheels and the data challenges as a way of demonstrating that you're ready to ride on your own. These should initially be done individually without any help from your peers so that we can assess your individual progress. A few days after each challenge deadline, you will have time in class to compare answers with your peers and work through any lingering problems. Then, as with lab exercises, I'll post a solutions document so that you can evaluate your own work and reflect on your progress.
-
-### Group projects
-
-Finally, the course also includes two open-ended group [projects](https://enst222.github.io/website/projects.html) to demonstrate that you can ask a meaningful research question and apply the tools you have been learning to answer it using real environmental data. Keeping with our biking metaphor, you'll have the freedom to ride wherever you want to go, completely free of training wheels. You'll identify a topic with which you're familiar from previous coursework to ensure that you have the disciplinary grounding needed to interpret your analysis. You must complete the final projects and make substantial code contributions to your group's work in order to pass this course.
+*Your project must meet all of the specifications and each student needs to make substantial code contributions to your group's work in order to earn at least a C in the course.*
 
 ### Learning reflections
 
-Because this is an ungraded class, we will emphasize qualitative reflection to self-assess your learning. Most if not all of of your assignments will include a reflection component in which you think about what you learned through the assignment, what challenges you faced, etc. You will also write two more in-depth [reflections](https://enst222.github.io/website/reflections.html) during the semester to more broadly evaluate your progress in the course. It is very important that you put earnest effort into all of the reflections to show that you are thinking carefully about your learning in the absence of quantitative grades.
+Because this is an ungraded class, we will emphasize qualitative reflection to self-assess your learning. Most if not all of of your assignments will include a reflection component in which you think about what you learned through the assignment, what challenges you faced, etc. At the mid-point and end of the semester, you will compile your work products from the class into a portfolio, write a detailed reflection on your learning, and make a case for the grade you have earned based on the assessment criteria we will develop together. The portfolio will include all of your application exercises, labs, and project components. Your reflection will describe how each of these products, as well as your participation in discussions and other class activities, demonstrates your learning. 
+
+An added benefit of this type of reflective work is that it encourages metacognition, which is the ability to think about your own thought processes and how they work. [Research shows](https://www.jstor.org/stable/pdf/43632012.pdf?casa_token=tFS6YefCxDoAAAAA:kw494Wo1BRpRzyAeziXERl200ENBEGqg1ZyjVhKy6iIwC_QE-1RuXcGzMKjoOnP2PMsw15Aqu8g8Yw9iNrmxM50Wek_T5hTUBzkKtwQw5sS16M5awZg) that metacognition can lead to “deeper, more durable, and more transferable learning. Therefore, taking the time to reflection on what and how you learned in the class should actually enhance your learning.
 
 ## More policies
 
 ### Attendance and late work
 
-It is very important that you regularly attend class and lab. Everything we do builds on previously covered topics. That means if you miss class or lab, you will fall behind. I also know that life happens! If you need to miss class or lab, first make sure to communicate this with me. Then check the class [schedule](https://enst222.github.io/website/schedule.html) to see what you missed, review relevant slides and readings, and complete missed assignments on your own. If group-based project work took place, be sure to communicate with your team ASAP to come up with a plan for how you will contribute. Since this is an ungraded course, I will not automatically dock your grade due to absences. However, when you write your mid-semester and final learning reflections, you should carefully consider your attendance record - especially repeated absences - may have impacted your learning and, therefore, your grade.
+It is very important that you regularly attend class and lab. Everything we do builds on previously covered topics. That means if you miss class or lab, you will fall behind. I also know that life happens! If you need to miss class or lab, first make sure to communicate this with me. Then check the class schedule to see what you missed, review relevant slides and readings, and complete missed assignments on your own. If group-based project work took place, be sure to communicate with your team ASAP to come up with a plan for how you will contribute. Since this is an ungraded course, I will not automatically dock your grade due to absences. However, when you write your mid-semester and final learning reflections, you should carefully consider your attendance record - especially repeated absences - may have impacted your learning and, therefore, your grade.
 
-I encourage you to stick to assignment deadlines - they exist to keep you on track so you don't fall behind with coursework. However, I am also flexible if you really need an extra day or two to complete an assignment. Just ask - it's usually not a problem. However, I will not accept late labs beyond the dates indicated in the course schedule. Because the labs are designed to help you learn and practice key coding and analysis concepts, they play an important role in preparing you for the group data projects. You really need to complete the labs leading up to each project to be fully prepared to carry out the projects. Therefore, all labs must be submitted before we start working on each of the projects.
+I encourage you to stick to assignment deadlines - they exist to keep you on track so you don't fall behind with coursework. For all assignments due on Fridays, you have an automatic 2-day extension and can submit them by the end of the day on Sundays (no need to ask). I am also flexible if you really need an additional day or two to complete an assignment. In this case, just ask - it's usually not a problem. 
+
+However, *you need to complete all of the labs assigned before the start of the group project in order to qualify to participate in the group project.* Because the labs are designed to help you learn and practice key coding and analysis concepts, they play an important role in preparing you for the group data projects. It wouldn't be fair to your group members if you are not prepared to contribute meaningfully to the project. If you do not complete all of the labs leading up the the group project, you'll need to complete the project on your own, which means you won't be able to demonstrate one of the central course learning outcomes: collaborative coding. This is something you will need to consider in your learning reflections.
 
 ### Use of AI
 
-The use of generative AI within lab reports and the poster assignment is not allowed. If you try to use AI for this work, it will probably generate nonsensical word vomit, anyway, since the assignments in this class are based on our own original research and not outside information sources (see this [scholarly article](https://link.springer.com/article/10.1007/s10676-024-09775-5) for details). If I suspect that you have used AI to create your assignments, you can expect to have a conversation with me!
+Google is your friend and you should absolutely use it to help figure out coding questions, problems, bugs, etc. However, I'm a bit wary of AI tools like ChatGPT. It can generate R code, but how much are you really going to learn if you blindly copy and paste whatever code ChatGPT generates? I want you to come away from this course being able to write your own code. ChatGPT can certainly generate simple code for you, but it is pretty bad at solving more complex coding problems. If you don't understand how to write and debug basic code because ChatGPT gave you the answer, you'll never be able to do the type of more advanced work that ChatGPT isn't capable of doing for you.
 
-You might consider using AI to help you develop study guides. However, your quiz notes must still be hand-written.
+I don't want to outright ban AI tools, but please be cognizant of your learning. Don't let ChatGPT make you dumb, and critically evaluate whether it's giving you [garbage](https://link.springer.com/article/10.1007/s10676-024-09775-5) or something useful. And if you do use code from a source other than your own brain, whether it be AI, a help forum, or blog, please give attribution to the source.
 
 ### Engaged learning
 
