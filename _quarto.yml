@@ -6,7 +6,7 @@ website:
   title: "MRNE/ENST 222"
   page-navigation: true
   favicon: "images/favicon/favicon.ico"
-  site-url: "https://mrne222-sp25-content.github.io/website/"
+  site-url: "https://mrne222-sp25.github.io/website/"
   repo-url: "https://github.com/MRNE222-sp25-activities/"
   sidebar:
     style: "docked"
