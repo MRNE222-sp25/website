@@ -1,13 +1,16 @@
 # Help!
 
-The following are suggestions for where to get help if you're stuck.
+The following are common issues and suggestions for where to get help if you're stuck.
 
-## Course texts
+## Common problems
 
-They include most of what will be covered in class:
+### GitHub push errors
 
-- [R 4 Data Science](http://r4ds.had.co.nz/)  
-- [Introduction to Modern Statistics](https://openintro-ims.netlify.app/)   
+It seems that you need to enter your GitHub PAT every time you start a new Posit Cloud session. To set your PAT in R Studio, open any project and type the code below into your R console. Then enter your PAT when prompted.
+```{r echo=TRUE, eval=FALSE}
+gitcreds::gitcreds_set()
+```
+
 
 ## R function documentation
 
@@ -17,11 +20,12 @@ Each function help page follows the same format. They start with a brief DESCRIP
 
 ## The internet
 
-There are internet search sites that are specialized for R searches, including [search.r-project.org](search.r-project.org) (which is the site used by RSiteSearch) and [Rseek.org](https://rseek.org/). It is also possible to use a general search site like Google, by qualifying the search with “R” or the name of an R package (or both). It can be particularly helpful to paste an error message into a search engine to find out whether others have solved a problem that you encountered.
+There are internet search sites that are specialized for R searches, including [search.r-project.org](search.r-project.org) (which is the site used by RSiteSearch) and [Rseek.org](https://rseek.org/). It is also possible to use a general search site like Google, by qualifying the search with "R" or the name of an R package (or both). It can be particularly helpful to paste an error message into a search engine to find out whether others have solved a problem that you encountered.
 
 ## Other good resources
-- [Posit cheatsheets](https://posit.co/resources/cheatsheets/) give a good quick overview of how to use the functions in popular R packages
-- The [R Style Guide](http://adv-r.had.co.nz/Style.html) provides guidelines for writing readable and maintainable R code  
-- [ggplot2](https://ggplot2-book.org/) book
-- [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/) book
-- [RMarkdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
+
+-   [Posit cheatsheets](https://posit.co/resources/cheatsheets/) give a good quick overview of how to use the functions in popular R packages
+-   The [R Style Guide](http://adv-r.had.co.nz/Style.html) provides guidelines for writing readable and maintainable R code\
+-   [ggplot2](https://ggplot2-book.org/) book
+-   [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/) book
+-   [RMarkdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
