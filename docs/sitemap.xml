@@ -1,35 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mrne222-sp25-content.github.io/website/04-reflections.html</loc>
+    <loc>https://mrne222-sp25.github.io/website/04-reflections.html</loc>
     <lastmod>2025-01-08T16:06:44.346Z</lastmod>
   </url>
   <url>
-    <loc>https://mrne222-sp25-content.github.io/website/03-project.html</loc>
+    <loc>https://mrne222-sp25.github.io/website/03-project.html</loc>
     <lastmod>2025-01-08T16:57:40.052Z</lastmod>
   </url>
   <url>
-    <loc>https://mrne222-sp25-content.github.io/website/index.html</loc>
+    <loc>https://mrne222-sp25.github.io/website/index.html</loc>
     <lastmod>2025-01-08T18:25:11.544Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mrne222-sp25-content.github.io/website/02-schedule.html</loc>
-    <lastmod>2025-01-21T12:26:35.721Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mrne222-sp25-content.github.io/website/05-help.html</loc>
-    <lastmod>2025-01-21T18:01:31.341Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mrne222-sp25-content.github.io/website/about.html</loc>
-    <lastmod>2025-01-08T16:46:16.276Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mrne222-sp25-content.github.io/website/01-syllabus.html</loc>
-    <lastmod>2025-01-13T23:06:29.929Z</lastmod>
   </url>
   <url>
     <loc>https://mrne222-sp25.github.io/website/02-schedule.html</loc>
     <lastmod>2025-01-21T21:43:06.295Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mrne222-sp25.github.io/website/05-help.html</loc>
+    <lastmod>2025-01-21T18:01:31.341Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mrne222-sp25.github.io/website/about.html</loc>
+    <lastmod>2025-01-08T16:46:16.276Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mrne222-sp25.github.io/website/01-syllabus.html</loc>
+    <lastmod>2025-01-13T23:06:29.929Z</lastmod>
   </url>
 </urlset>
