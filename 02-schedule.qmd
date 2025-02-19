@@ -21,10 +21,10 @@ read_excel("schedule.xlsx") |>
     columns = c(PREP, SLIDES, ACTIVITIES, DUE)
     ) |>
   cols_width(
-    WEEK ~ px(45),
-    DATE ~ px(100),
-    PREP ~ px(150),
-    SLIDES ~ px(250),
+    WEEK ~ px(30),
+    DATE ~ px(90),
+    PREP ~ px(130),
+    SLIDES ~ px(230),
     ACTIVITIES ~ px(150),
     DUE ~ px(150)
   ) |>
