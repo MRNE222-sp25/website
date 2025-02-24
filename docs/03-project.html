@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects – MRNE/ENST 222</title>
+<title>Project – MRNE/ENST 222</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./03-project.html">Projects</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./03-project.html">Project</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -132,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./03-project.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Projects</span></a>
+ <span class="menu-text">Project</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -178,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Project</h1>
 </div>
 
 
@@ -197,28 +197,29 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="tldr" class="level2">
 <h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
-<p>For Project 1, pick an environmental dataset on a topic you already know something about, ask a question, and answer it using data. For Project 2, also do some stats!</p>
+<p>Pick an environmental dataset on a topic you already know something about, ask a question, and answer it using data.</p>
 </section>
 <section id="example-project" class="level2">
 <h2 class="anchored" data-anchor-id="example-project">Example project</h2>
-<p>The CO<sub>2</sub> case study is an example project to give you a sense of what constitutes a great final product. You can access the CO<sub>2</sub> case study through <a href="https://github.com/ENST222/exercises/tree/main/lab-06-co2-case-study">this github repo</a> or in the class R Studio Cloud workspace (lab-06-co2-case-study).</p>
+<p>The CO<sub>2</sub> case study is an example project to give you a sense of what constitutes a great final product. You can access the CO<sub>2</sub> case study through <a href="https://mrne222-sp25.github.io/slides/project-example/project-example.html">this github repo</a> or in the class R Studio Cloud workspace (lab-06-co2-case-study).</p>
 </section>
 <section id="what-and-why" class="level2">
 <h2 class="anchored" data-anchor-id="what-and-why">What and why</h2>
-<p>The goal of the projects is to apply the techniques we have covered in class to a novel dataset in a meaningful way. The mid-semester project should emphasize data wrangling, tidying, and visualization, and the end of semester project should additionally incorporate statistical modeling (bonus “points” if you use spatial data as well). For both projects, you will analyze any environmental dataset you’d like, with the one requirement that it be related to a topic with which you are already familiar. Data analysis is usually most powerful if you have expertise in a relevant topic area and can, therefore, ask questions and draw conclusions that are well-grounded in that disciplinary domain. So this is a good opportunity to apply previous coursework or experiences in a new, perhaps more quantitative context.</p>
+<p>The goal of the project is to apply the techniques we are covering in class to a novel dataset in a meaningful way. The project should emphasize data wrangling, tidying, visualization, and statistical modeling. Bonus “points” if you use spatial data as well. We will cover statistics and spatial data after Spring Break.</p>
+<p>For the project, you will analyze any environmental/ecological dataset you’d like, with the one requirement that it be related to a topic with which you are already familiar so that you have some domain expertise. Data analysis is usually most powerful if you have expertise in a relevant topic area and can, therefore, ask questions and draw conclusions that are well-grounded in that disciplinary domain. So this is a good opportunity to apply previous coursework or experiences in a new, more quantitative context.</p>
 <p>You don’t necessarily need to do an exhaustive data analysis (i.e., do not calculate every statistic or visualize every variable), but rather demonstrate that you are proficient at:</p>
 <ul>
 <li>asking meaningful questions and answering them through data analysis</li>
 <li>using R and GitHub to code collaboratively</li>
-<li>presenting and interpreting your results using literate, reproducible programming (i.e., RMarkdown)</li>
-<li>for project 2, using statistical analysis to draw more rigorous conclusions</li>
+<li>presenting and interpreting your results using literate, reproducible programming (i.e., Quarto)</li>
+<li>using statistical analysis to draw rigorous conclusions</li>
 </ul>
 <p>To that end, you should focus on your research questions and work backwards from there. Think about what types of analysis and visualizations will help you answer your question and how your data need to be wrangled or tidied in order to complete those tasks. You’ll probably need to do some initial exploratory data analysis to get a sense of what types of questions you might ask. As you enter the analysis stage, you can stick to the packages we learned in class (<code>tidyverse</code>) or push yourself explore others if they will improve your analysis. Finally, give careful thought to how you communicate your analysis. Neatness, coherency, and clarity are all important.</p>
 <p>If at any point you are having trouble, don’t hesitate to ask for help before it’s too late. The main reason we have a lab session is so you can work while I’m in the room to provide immediate assistance. Take advantage of it!</p>
 </section>
 <section id="data" class="level2">
 <h2 class="anchored" data-anchor-id="data">Data</h2>
-<p>In order for you to have the greatest chance of success with this project it is important that you choose a manageable dataset. This means that the data should be readily accessible and large enough that multiple relationships can be explored. As such, your dataset should have at least 50 observations and between 10 to 20 variables (exceptions can be made but you must speak with me first). The dataset’s variables should include both categorical and numerical variables. If you are using a dataset that comes in a format that we haven’t encountered in class, make sure that you are able to load it into R as this can be tricky depending on the source. Please don’t reuse datasets we have already analyzed in class.</p>
+<p>In order for you to have the greatest chance of success with this project it is important that you choose a manageable dataset. This means that the data should be readily accessible and large enough that multiple relationships can be explored. As such, your dataset should have <strong>at least 50 observations</strong> (rows) and between <strong>10 to 20 variables</strong> (columns) (exceptions can be made but you must speak with me first). The dataset’s variables should include <strong>both categorical and numerical variables</strong>. If you are using a dataset that comes in a format that we haven’t encountered in class, make sure that you are able to load it into R as this can be tricky depending on the source. Please don’t reuse datasets we have already analyzed in class.</p>
 <p>Below is a list of data repositories that might be of interest to browse. These are not all exclusively environmental data repositories, although some of them are. You’re not limited to these resources - you are welcome to identify your own datasets as well.</p>
 <ul>
 <li><a href="https://github.com/rfordatascience/tidytuesday">TidyTuesday</a></li>
@@ -238,6 +239,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="collaborative-coding">Collaborative coding</h2>
 <p>These are group projects for a reason - they will force you to learn how to code collaboratively. Code conflicts are inevitable and indeed very annoying. But learning how to fix them is an important skill. Embrace the messiness and try not to get too frustrated - I am here to help. Googling error messages is usually helpful as well.</p>
 <p>It should go without saying, but everyone needs to make significant code contributions to each project. Because we are using Git and GitHub, I can see each person’s commits, including what you did and when you did it. So it is very obvious if one person is doing most of the work, for example, or another person waited till the last minute to make a few sloppy contributions.</p>
+<p>I know it’s tempting, but please do not write your code contribution in one .qmd file and paste it into your group .qmd file at the end of the project. It is importnant that everyone is working collaboratively on the same document. Each person needs to make commits regularly throughout the course of the project to demonstrate your consistent, continued contritutions.</p>
 </section>
 <section id="deliverables" class="level2">
 <h2 class="anchored" data-anchor-id="deliverables">Deliverables</h2>
@@ -281,7 +283,7 @@ Make sure to update your README.md file so that it reflects the content of your 
 <li><code>README.md</code>: your README file containing a project summary and metadata</li>
 <li><code>/data</code>: folder containing your dataset(s) in CSV or RDS format</li>
 </ul>
-<p>Your repo should not contain any other files. You may find it useful to create some “scratch” files to do exploratory analysis or code testing outside of your project file. But these files should be removed from your final repository. Our goal is to create a clean, fully reproducible repository that could be made public. That means that only your final, well-documented work should be included.</p>
+<p>Your repo should not contain any other files. You may find it useful to create some “scratch” files to do exploratory analysis or code testing outside of your project file. But these files should be removed from your final repository, and again be sure you are making regular contributions and commits to your group’s project file. Our goal is to create a clean, fully reproducible repository that could be made public. That means that only your final, well-documented work should be included.</p>
 </section>
 </section>
 <section id="project-evaluation" class="level2">
@@ -293,18 +295,17 @@ Make sure to update your README.md file so that it reflects the content of your 
 <li>Professional polish: The figures and writing should follow best practices (be free of errors, well-organized, polished, etc.).</li>
 <li>Syntax: The report should take advantage of <a href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf">R Markdown syntax</a> to format for clarity (e.g., plain text, code chunks, bulleted lists, headings, embedded hyperlinks, inline code, etc.)</li>
 <li>Time management: The team should equitably distribute time spent on the project.</li>
-<li>Collaboration: The team should work as a cohesive unit to collaboratively complete the project. This involves good communication and defining clear expectations for each other.</li>
-<li>Reproducibility: Entire analysis can be run by an independent user in a new R Studio session and README file contains a project summary and metadata description.</li>
+<li>Collaboration: The team should work as a cohesive unit to collaboratively complete the project. This involves good communication and defining clear expectations for each other. Each team member makes regular, substantive commits throughout the course of the project</li>
+<li>Reproducibility: .qmd file renders, indicating that the entire analysis can be run by an independent user in a new R Studio session; README file contains a project summary and metadata description.</li>
 </ul>
 </section>
 <section id="tips" class="level2">
 <h2 class="anchored" data-anchor-id="tips">Tips</h2>
 <ul>
-<li>You’re working in the same repo as your teammates now, so merge conflicts will happen and that’s fine. Commit and push often. And ask questions when stuck.</li>
+<li>You’re working in the same repo as your teammates now, so merge conflicts will happen and that’s fine. <strong>Pull every time you start a new R session.</strong> Commit and push often. And ask questions when stuck.</li>
 <li>Each team member should be contributing, both in terms of quality and quantity. Talk to me if you have any issues with this.</li>
 <li>Set aside time to work together and apart (physically).</li>
-<li>In your knitted/rendered report file, your code should be hidden (use <code>echo = FALSE</code> in your code chunks) so that your document is neat and easy to read. However your document should include all of your code so that if I re-knit your R Markdown file I should be able to obtain the results you presented.</li>
-<li>Make sure to knit your final report, commit it, and then push to GitHub!</li>
+<li>Make sure to render your final report, commit it, and then push to GitHub!</li>
 </ul>
 
 
