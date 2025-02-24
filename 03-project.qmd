@@ -8,7 +8,7 @@ Pick an environmental dataset on a topic you already know something about, ask a
 
 ## Example project
 
-The CO~2~ case study is an example project to give you a sense of what constitutes a great final product. You can access the CO~2~ case study through [this github repo](https://mrne222-sp25.github.io/slides/project-example/project-example.html) or in the class R Studio Cloud workspace (lab-06-co2-case-study).
+The [CO~2~ case study](https://mrne222-sp25.github.io/slides/project-example/project-example.html) is an example project to give you a sense of what constitutes a great final product.
 
 ## What and why
 
