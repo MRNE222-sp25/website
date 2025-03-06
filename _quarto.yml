@@ -28,7 +28,6 @@ website:
       - 01-syllabus.qmd
       - 02-schedule.qmd
       - 03-project.qmd
-      - 04-reflections.qmd
       - 05-help.qmd
 
 format:

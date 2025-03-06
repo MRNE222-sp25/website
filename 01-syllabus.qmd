@@ -47,16 +47,13 @@ Specific outcomes include being able to:
 
 This is an "ungraded" course. I want you to focus on learning R and developing your quantitative reasoning skills without the stress of losing points over minor mistakes. Mistakes are inevitable in this type of course. In fact, making mistakes and fixing them is the best way to learn! Furthermore, [research has shown](https://www.alfiekohn.org/article/case-grades/) that grading doesn't always improve learning and can sometimes even harm learning.
 
-Rather than submitting work "in exchange" for a letter or number grade, you will self-evaluate most of your assignments by comparing them to the provided solutions documents. In addition, your peers and I will provide qualitative feedback on your projects. 
+Rather than submitting work "in exchange" for a letter or number grade, you will self-evaluate most of your assignments by comparing them to the provided solutions documents. In addition, your peers and I will provide qualitative feedback on your projects.
 
 Brief learning reflections will be an important component of most assignments. Periodically throughout the semester, you will also submit more substantial learning reflections in which you give yourself a grade based on your learning, as reflected in the work you submit. This should help you think intentionally about what you're learning, what you're struggling with, and what you need to do to maximize your learning in the course. Hopefully, this will spark your inner motivation to do your best work. As the instructor, I have the final say in your grade. But I rarely find that changing a student's self-assessed grade is necessary - I trust your judgment.
 
-:::{.callout-important} 
-
+::: callout-important
 Your project must meet all of the specifications and you need to make substantial code contributions to your group's work in order to earn at least a C in the course.
-
 :::
-
 
 ## Assessment
 
@@ -68,27 +65,27 @@ To incentevize you to do the readings and to help me keep track of who is doing 
 
 ### Application exercises
 
-Frequently we will work on brief application exercises during class to practice new tools and concepts. The first few will be posted as assignments in our Posit Cloud workspace. When you open an assignment, Posit Cloud will make a copy for you. Your changes will be automatically saved and I'll be able to see your work. After our first lab, you'll clone the remaining Application Exercises from GitHub, work on the in Posit Cloud, and push your changes to GitHub to submit the assignment. Application exercises should be submitted by the end of the week (Friday) in which they were assigned. 
+Frequently we will work on brief application exercises during class to practice new tools and concepts. The first few will be posted as assignments in our Posit Cloud workspace. When you open an assignment, Posit Cloud will make a copy for you. Your changes will be automatically saved and I'll be able to see your work. After our first lab, you'll clone the remaining Application Exercises from GitHub, work on the in Posit Cloud, and push your changes to GitHub to submit the assignment. Application exercises should be submitted by the end of the week (Friday) in which they were assigned.
 
 ### Labs
 
-Labs afford us time to practice the concepts covered in class and work collaboratively on group projects. Some exercises will be relatively brief and can be completed during the designated lab time. Others will be more involved and may need to be finished for homework. Either way, lab assignments should be submitted by the end of the week (Friday) in which they were assigned. At the beginning of each lab, I will typically post a solutions document for the previous lab assignment so you can self-evaluate your work and ask questions. 
+Labs afford us time to practice the concepts covered in class and work collaboratively on group projects. Some exercises will be relatively brief and can be completed during the designated lab time. Others will be more involved and may need to be finished for homework. Either way, lab assignments should be submitted by the end of the week (Friday) in which they were assigned. At the beginning of each lab, I will typically post a solutions document for the previous lab assignment so you can self-evaluate your work and ask questions.
 
 ### Project
 
 Finally, the course also includes an open-ended group project to give you the opportunity for you to demonstrate that you can ask a meaningful research question and apply the tools you have been learning to answer it using real environmental data. You'll identify a topic with which you're familiar from previous coursework to ensure that you have the disciplinary grounding needed to interpret your analysis. Your project must meet all of the specifications provided and you need to make substantial code contributions to your group's work in order to earn at least a C in the course.
 
-:::{.callout-important} 
-
+::: callout-important
 Your project must meet all of the specifications and you need to make substantial code contributions to your group's work in order to earn at least a C in the course.
-
 :::
 
 ### Learning reflections
 
-Because this is an ungraded class, we will emphasize qualitative reflection to self-assess your learning. Most if not all of of your assignments will include a reflection component in which you think about what you learned through the assignment, what challenges you faced, etc. At the mid-point and end of the semester, you will compile your work products from the class into a portfolio, write a detailed reflection on your learning, and make a case for the grade you have earned based on the assessment criteria we will develop together. The portfolio will include all of your application exercises, labs, and project components. Your reflection will describe how each of these products, as well as your participation in discussions and other class activities, demonstrates your learning. 
+Because this is an ungraded class, we will emphasize qualitative reflection to self-assess your learning. Most if not all of of your assignments will include a reflection component in which you think about what you learned through the assignment, what challenges you faced, etc. At the mid-point and end of the semester, you will write a detailed reflection on your learning and make a case for the grade you have earned based on your progress towards meeting the learning outcomes. Your reflection will describe how your work products (quizzes, application exercises, labs, and project) demonstrates your learning.
 
-An added benefit of this type of reflective work is that it encourages metacognition, which is the ability to think about your own thought processes and how they work. [Research shows](https://www.jstor.org/stable/pdf/43632012.pdf?casa_token=tFS6YefCxDoAAAAA:kw494Wo1BRpRzyAeziXERl200ENBEGqg1ZyjVhKy6iIwC_QE-1RuXcGzMKjoOnP2PMsw15Aqu8g8Yw9iNrmxM50Wek_T5hTUBzkKtwQw5sS16M5awZg) that metacognition can lead to “deeper, more durable, and more transferable learning. Therefore, taking the time to reflection on what and how you learned in the class should actually enhance your learning.
+An added benefit of this type of reflective work is that it encourages metacognition, which is the ability to think about your own thought processes and how they work. [Research shows](https://www.jstor.org/stable/pdf/43632012.pdf?casa_token=tFS6YefCxDoAAAAA:kw494Wo1BRpRzyAeziXERl200ENBEGqg1ZyjVhKy6iIwC_QE-1RuXcGzMKjoOnP2PMsw15Aqu8g8Yw9iNrmxM50Wek_T5hTUBzkKtwQw5sS16M5awZg) that metacognition can lead to "deeper, more durable, and more transferable learning. Therefore, taking the time to reflection on what and how you learned in the class should actually enhance your learning.
+
+I will provide a mid-term and final reflection template on GitHub for each student to clone in RStudio. You'll submit your reflections by pushing your work back to GitHub.
 
 ## More policies
 
@@ -96,9 +93,9 @@ An added benefit of this type of reflective work is that it encourages metacogni
 
 It is very important that you regularly attend class and lab. Everything we do builds on previously covered topics. That means if you miss class or lab, you will fall behind. I also know that life happens! If you need to miss class or lab, first make sure to communicate this with me. Then check the class schedule to see what you missed, review relevant slides and readings, and complete missed assignments on your own. If group-based project work took place, be sure to communicate with your team ASAP to come up with a plan for how you will contribute. Since this is an ungraded course, I will not automatically dock your grade due to absences. However, when you write your mid-semester and final learning reflections, you should carefully consider your attendance record - especially repeated absences - may have impacted your learning and, therefore, your grade.
 
-I encourage you to stick to assignment deadlines - they exist to keep you on track so you don't fall behind with coursework. For all assignments due on Fridays, you have an automatic 2-day extension and can submit them by the end of the day on Sundays (no need to ask). I am also flexible if you really need an additional day or two to complete an assignment. In this case, just ask - it's usually not a problem. 
+I encourage you to stick to assignment deadlines - they exist to keep you on track so you don't fall behind with coursework. For all assignments due on Fridays, you have an automatic 2-day extension and can submit them by the end of the day on Sundays (no need to ask). I am also flexible if you really need an additional day or two to complete an assignment. In this case, just ask - it's usually not a problem.
 
-:::{.callout-important}
+::: callout-important
 You need to complete all of the labs assigned before the start of the group project in order to qualify to participate in the group project.
 :::
 
