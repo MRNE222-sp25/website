@@ -4,7 +4,7 @@ execute:
   freeze: false
 ---
 
-Schedule will be updated regularly throughout the semester 
+Schedule will be updated regularly throughout the semester
 
 ```{r}
 #| echo: false
